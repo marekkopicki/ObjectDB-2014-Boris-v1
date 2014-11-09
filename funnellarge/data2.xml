@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grasp>
+  <data ext_cloud=".pcd" ext_data=".xml" ext_trajectory=".trj" sep_field=" " sep_name="-">
+    <appearance camera_frame="1" camera_frame_size="0.05" feature_curv_pow="1" frame_num="100" mode="point" mode_3d="0" mode_3d_a="177" point_size="1">
+      <colour A="255" B="127" G="127" R="127" override="0"></colour>
+      <frame_size v1="0.2" v2="0.2" v3="0.01"></frame_size>
+    </appearance>
+    <grasp_cluster path="./data/boris/funnellarge/data2-grasp_cluster.graspcluster"></grasp_cluster>
+    <grasp_config path="./data/boris/funnellarge/data2-grasp_config.graspconfig"></grasp_config>
+    <label label="1" name="funnellarge"></label>
+    <label label="2" name="funnellarge-1"></label>
+    <points label="2" path="./data/boris/funnellarge/data2-points-funnellarge-1-1.pcd"></points>
+    <points_raw label="1" path="./data/boris/funnellarge/data2-points_raw-funnellarge-1.pcd">
+      <robot_pose c1="2.05574" c10="0.051114" c11="0.051114" c12="0.0438612" c13="0.0121185" c14="0.143336" c15="0.143336" c16="0.0112767" c17="0.148703" c18="0.206968" c19="0.128428" c2="-0.926669" c20="0.00228335" c21="0.228568" c22="0.118776" c23="0.118776" c24="-0.0294552" c25="0.250866" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688779" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.72129" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410152" c60="0" c61="0" c7="0.531609" c8="0.024283" c9="0.276913" dim="61" dt="0" flags="" m11="0.525417" m12="0.831777" m13="-0.179118" m21="0.739306" m22="-0.550509" m23="-0.387772" m31="-0.421146" m32="0.0713197" m33="-0.904184" v1="0.187229" v2="-0.944879" v3="0.153794"></robot_pose>
+    </points_raw>
+  </data>
+</grasp>

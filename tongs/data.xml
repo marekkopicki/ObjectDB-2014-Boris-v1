@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grasp>
+  <data ext_cloud=".pcd" ext_data=".xml" ext_trajectory=".trj" sep_field=" " sep_name="-">
+    <appearance camera_frame="1" camera_frame_size="0.05" feature_curv_pow="1" frame_num="100" mode="point" mode_3d="0" mode_3d_a="177" point_size="1">
+      <colour A="255" B="127" G="127" R="127" override="0"></colour>
+      <frame_size v1="0.2" v2="0.2" v3="0.01"></frame_size>
+    </appearance>
+    <grasp_cluster path="./data/boris/tongs/data-grasp_cluster.graspcluster"></grasp_cluster>
+    <grasp_config path="./data/boris/tongs/data-grasp_config.graspconfig"></grasp_config>
+    <label label="1" name="tongs"></label>
+    <label label="2" name="tongs-1"></label>
+    <points label="2" path="./data/boris/tongs/data-points-tongs-1-1.pcd"></points>
+    <points_raw label="1" path="./data/boris/tongs/data-points_raw-tongs-1.pcd">
+      <robot_pose c1="2.05575" c10="0.0762467" c11="0.0762467" c12="0.00309031" c13="0.00709197" c14="0.144592" c15="0.144592" c16="0.0151863" c17="0.152613" c18="0.209481" c19="0.130941" c2="-0.926671" c20="0.012895" c21="0.23918" c22="0.111236" c23="0.111236" c24="-0.0294552" c25="0.250866" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688766" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.72129" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410163" c60="0" c61="0" c7="0.531476" c8="0.0131129" c9="0.272445" dim="61" dt="0" flags="" m11="0.525311" m12="0.831845" m13="-0.179114" m21="0.739377" m22="-0.550413" m23="-0.387772" m31="-0.421153" m32="0.0712684" m33="-0.904185" v1="0.187229" v2="-0.94488" v3="0.153799"></robot_pose>
+    </points_raw>
+    <trajectory name="pinchsupp" path="./data/boris/tongs/data-trajectory-pinchsupp.trj"></trajectory>
+  </data>
+</grasp>
