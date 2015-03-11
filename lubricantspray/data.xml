@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <grasp>
-  <data ext_cloud=".pcd" ext_data=".xml" ext_trajectory=".trj" sep_field=" " sep_name="-">
-    <appearance camera_frame="1" camera_frame_size="0.05" feature_curv_pow="1" frame_num="100" mode="point" mode_3d="0" mode_3d_a="177" point_size="1">
-      <colour A="255" B="127" G="127" R="127" override="0"></colour>
-      <frame_size v1="0.2" v2="0.2" v3="0.01"></frame_size>
-    </appearance>
-    <grasp_cluster path="./data/boris/lubricantspray/data-grasp_cluster.graspcluster"></grasp_cluster>
-    <grasp_config path="./data/boris/lubricantspray/data-grasp_config.graspconfig"></grasp_config>
-    <label label="1" name="lubricantspray"></label>
-    <label label="2" name="lubricantspray-1"></label>
-    <points label="2" path="./data/boris/lubricantspray/data-points-lubricantspray-1-1.pcd"></points>
-    <points_raw label="1" path="./data/boris/lubricantspray/data-points_raw-lubricantspray-1.pcd">
-      <robot_pose c1="2.05576" c10="0.0963529" c11="0.0963529" c12="0.020404" c13="0.0199376" c14="0.174752" c15="0.174752" c16="0.0213298" c17="0.16099" c18="0.154189" c19="0.0756491" c2="-0.926685" c20="-0.034578" c21="0.21293" c22="0.108723" c23="0.108723" c24="-0.0294552" c25="0.250866" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688778" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69531" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.7213" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409965" c60="0" c61="0" c7="0.531635" c8="0.0667294" c9="0.257924" dim="61" dt="0" flags="" m11="0.525415" m12="0.83178" m13="-0.17911" m21="0.73923" m22="-0.550491" m23="-0.387943" m31="-0.421282" m32="0.0714272" m33="-0.904113" v1="0.187234" v2="-0.944885" v3="0.153803"></robot_pose>
-    </points_raw>
-    <trajectory name="pinch" path="./data/boris/lubricantspray/data-trajectory-pinch.trj"></trajectory>
+  <data>
+    <item cloud=".pcd" handler="Image+Image" image="" label="lubricantspray" prefix="-points_raw-lubricantspray-1" time_stamp="0">
+      <config c1="2.05576" c10="0.0963529" c11="0.0963529" c12="0.020404" c13="0.0199376" c14="0.174752" c15="0.174752" c16="0.0213298" c17="0.16099" c18="0.154189" c19="0.0756491" c2="-0.926685" c20="-0.034578" c21="0.21293" c22="0.108723" c23="0.108723" c24="-0.0294552" c25="0.250866" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688778" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69531" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.7213" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409965" c60="0" c61="0" c7="0.531635" c8="0.0667294" c9="0.257924" dim="61" dt="0" flags="" m11="0.525415" m12="0.83178" m13="-0.17911" m21="0.73923" m22="-0.550491" m23="-0.387943" m31="-0.421282" m32="0.0714272" m33="-0.904113" v1="0.187234" v2="-0.944885" v3="0.153803"></config>
+      <extrinsic m11="-0.0146444" m12="-0.0801927" m13="0.996672" m21="0.999868" m22="0.00588724" m23="0.0151651" m31="-0.00708377" m32="0.996762" m33="0.0800958" v1="0.0800444" v2="-0.041683" v3="0.0753622"></extrinsic>
+      <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
+    </item>
+    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-1-1" time_stamp="0">
+      <config c1="2.05576" c10="0.0963529" c11="0.0963529" c12="0.020404" c13="0.0199376" c14="0.174752" c15="0.174752" c16="0.0213298" c17="0.16099" c18="0.154189" c19="0.0756491" c2="-0.926685" c20="-0.034578" c21="0.21293" c22="0.108723" c23="0.108723" c24="-0.0294552" c25="0.250866" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688778" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69531" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.7213" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409965" c60="0" c61="0" c7="0.531635" c8="0.0667294" c9="0.257924" dim="61" dt="0" flags="" m11="0.525415" m12="0.83178" m13="-0.17911" m21="0.73923" m22="-0.550491" m23="-0.387943" m31="-0.421282" m32="0.0714272" m33="-0.904113" v1="0.187234" v2="-0.944885" v3="0.153803"></config>
+      <model rand_ang="100">
+        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+      </model>
+      <query>
+        <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
+      </query>
+    </item>
   </data>
 </grasp>
